@@ -3,6 +3,12 @@ A collection of files used to analyze optical images taken by the Plaskett Teles
 
 The script was originally written as the Jupyter Notebook, and the py version is a .py download of the original notebook itself; honestly I haven't checked the py file, but the notebook works.
 
+It is ESSENTIAL that the folder structure is accurate to what is in the repository for the code to work; it relies on certain paths being available.  
+
+FYI, disregard any files named "Nothing" or "NA"; they were simply created to allow me to create the folder/directory structure that is necessary for the code.  The original folders were too large to upload all at once, so I created new folders as a workaround.
+
+Note that the image files are .gz compressed.  I tried to run a version of the notebook using Windows and it simply wouldn't work due to path issues.  This notebook will require a Linux distrobution or Unix-based operating system (You win this time, macOS).
+
 This is a very complicated code involving a some astronomical imaging jargon, so let me try and and explain what the code does step by step.  For more intensive information, a write-up for the project has been uploaded.
 
 ## 1: Calibration
