@@ -1,6 +1,8 @@
 # Binary_star_light_curve
 A collection of files used to analyze optical images taken by the Plaskett Telescope of an eclipsing binary star system referred to in literature as 1SWASP J074658.62+224448.5
 
+The script was originally written as the Jupyter Notebook, and the py version is a .py download of the original notebook itself; honestly I haven't checked the py file, but the notebook works.
+
 This is a very complicated code involving a some astronomical imaging jargon, so let me try and and explain what the code does step by step.  For more intensive information, a write-up for the project has been uploaded.
 
 ## 1: Calibration
