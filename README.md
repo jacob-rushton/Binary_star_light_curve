@@ -10,4 +10,4 @@ The first step involves calibrating each optical image, or "science" frame;  tha
 The imaging took place over two days, and each day the imaging went on for a period of hours.  To correct for the movement of the Earth, the stars in the images must be aligned so that the pixels containing the stars of interest are maintained to allow for measurement of the light curves. The images from days 1 and 2 are aligned separately, creating two sets of images (day 1 contained far more data, so the result is far better).
 
 ## 3: Data Analysis
-
+The remaining script locates and marks the star of interest, plus 3 additional stars to be used for reference.  Apertures are defined around each star, and the average value of an annulus around that circular aperture is subtracted from the aperture, assuming any background noise will then be removed from the part of the frames containing the stars themselves.  The apparent visual magnitudes of the stars are then calculated and plotted versus time.
