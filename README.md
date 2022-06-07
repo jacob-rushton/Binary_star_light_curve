@@ -9,7 +9,7 @@ FYI, disregard any files named "Nothing" or "NA"; they were simply created to al
 
 Note that the image files are .gz compressed.  I tried to run a version of the notebook using Windows and it simply wouldn't work due to path issues.  This notebook will require a Linux distrobution or Unix-based operating system (You win this time, macOS).
 
-This is a very complicated code involving a some astronomical imaging jargon, so let me try and and explain what the code does step by step.  For more intensive information, a write-up for the project has been uploaded.
+This is a very complicated code involving a some astronomical imaging jargon, so let me try and and explain what the code does step by step.  For more intensive information, a write-up for the project has been uploaded, titled "Jacob_Rushton_Project3_Updated.pdf".
 
 ## 1: Calibration
 The first step involves calibrating each optical image, or "science" frame;  that involves trimming any non-information out of the image ad then using the flat and dark frames to calibrate each image.  Combining all dark frames gives a "raw master dark", which is then subtracted from each flat frame.  These subtracted flat frames are then combined into a "master flat".  Then the raw master dark pixel values are subtracted from each science frame and then the pixels of each resulting science frame are then divided by the corresponding pixel of the master flat. The frames are now calibrated.
